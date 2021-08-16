@@ -1,7 +1,7 @@
 <template>
 
 <!--  🌙 ☀️ The above codes are related to Dark & Light Mode -->
-<div :class="{dark:toggle} ">
+<div class="m-0" :class="{dark:toggle} ">
 
   <div class="bg-s-t1a1 text-l1-a1 font-mono bg-cover  bg-fixed bg-center " style="background-image:url('https://raw.githubusercontent.com/Rasafff/Aditto-Portfolio-Website/main/assets/image/background.jpg')">
 

@@ -8,7 +8,7 @@
 
     <div class=" mb-12rem md:mb-14rem lg:mb-17rem  flex justify-center opacity-100 ">  <!-- margin bottom has to be bigger than image size. Remove margin bottom and check what happens -->
 
-        <img class="absolute -top-1.5rem  h-10rem w-10rem md:h-12rem md:w-12rem lg:h-15rem lg:w-15rem  object-cover rounded-full  border border-s-t1a1" 
+        <img class="absolute -top-1.5rem  h-10rem w-10rem md:h-12rem md:w-12rem lg:h-15rem lg:w-15rem  object-cover rounded-full  border border-s-t1a3" 
         src="https://raw.githubusercontent.com/Rasafff/Aditto-Portfolio-Website/main/assets/image/Aditto.jpeg"  alt="profile" >
 
     </div>

@@ -1,8 +1,6 @@
-## Some Designed Components (Made with Tailwind CSS & Vue.js(Nuxt))
 
 
-
-## [Live Site](https://rasaf-ibrahim-repo5.netlify.app/)
+## [Live Site](https://aditto-nahian.netlify.app/)
 
 
 
