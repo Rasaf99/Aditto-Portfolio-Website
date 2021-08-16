@@ -1,0 +1,71 @@
+ 
+/*
+
+
+grey dark mode's surface/base's background color = #121212
+
+
+
+
+the following will have background color of #FFFFFF with an opcaity
+
+opacity 9% = top bar (navigation)
+opacity 12% = bottom bar [generally mobile app has bottom bar]
+
+
+opacity 5% = card
+
+
+
+
+// Text Color
+
+grey dark mode's text color = #FFFFFF
+
+
+
+
+navigation bar's active element = primary color (can be red or blue or yellow etc)
+inactive element of navigation bar =  #FFFFFF with 60% opacity
+
+
+
+*/
+
+
+
+
+
+
+@mixin bg-grey-dark-2 {
+
+   background-color:#FFFFFF;
+   opacity:8%;
+  
+   //  Color of https://github.com/
+
+
+   /*topbar*/
+
+}
+
+
+
+
+@mixin bg-grey-dark-1 {
+
+   background-color:#121212;
+  
+   //  Color of https://github.com/
+
+
+   /*this is the base or surface color */
+
+}
+
+
+
+
+// bg-gray
+// bg-gradient-gray
+// text-gray

@@ -1,0 +1,43 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&family=Lobster+Two&family=Kaushan+Script&family=Yatra+One&family=Train+One&family=Indie+Flower&family=Atma&display=swap');
+
+
+
+/* components */
+@import './2_components/_components.scss';
+
+
+/* helpers */
+@import './3_helpers/_helpers.scss';
+
+
+// /* old */
+// @import './4_old/_old.scss';
+
+
+/* Website Specific */
+@import './websiteSpecifc/websiteSpecific';
+
+
+
+/* tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* Theme */
+
+@import './1_theme/theme.scss';
+
+
+
+
+
+
+
+
+
+

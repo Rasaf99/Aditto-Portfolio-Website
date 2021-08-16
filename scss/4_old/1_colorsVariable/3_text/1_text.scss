@@ -1,0 +1,60 @@
+// 1 (primary color)
+
+$teal-100:#E0F2F1;
+$teal-900:#004D40;
+
+
+
+
+.text-color-1_r{
+  color:#121212;
+             
+}
+
+.dark .text-color-1_r{
+    
+    color:#FFFFFF;
+}
+
+
+
+.text-color-top-bar_r{
+    
+    color:$teal-900;
+    
+}
+
+
+.dark .text-color-top-bar_r {
+    
+    color:white;
+    
+}
+
+
+.text-color-1-light_r{
+    @apply text-gray-700
+           dark:text-gray-100;
+}
+
+.text-color-1-dark_r{
+    @apply text-gray-900 
+           dark:text-gray-300;
+}
+
+
+// hover
+.hover-text-color-1_r{
+    @apply hover:text-gray-800 
+           dark:hover:text-gray-200;           
+}
+
+.hover-text-color-1-light_r{
+    @apply hover:text-gray-700 
+           dark:hover:text-gray-100;
+}
+
+.hover-text-color-1-dark_r{
+    @apply hover:text-gray-900 
+           dark:hover:text-gray-300;
+}

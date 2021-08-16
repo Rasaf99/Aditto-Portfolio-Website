@@ -1,0 +1,38 @@
+
+@layer base {
+
+
+    :root {
+
+        //bg-yellow-a1 or, //text-yellow-a1
+       --yellow-alpha-1: hsla(35,90%,40%,1); 
+
+       //bg-yellow-a2 or, //text-yellow-a2
+       --yellow-alpha-2: hsla(35,90%,40%,0.9); 
+
+       //bg-yellow-a2 or, //text-yellow-a2
+       --yellow-alpha-3: hsla(35,90%,40%,0.8); 
+
+
+    }
+
+
+    .dark {
+
+
+        //bg-yellow-a1 or, //text-yellow-a1
+       --yellow-alpha-1: hsla(35,90%,60%,1); 
+
+       //bg-yellow-a2 or, //text-yellow-a2
+       --yellow-alpha-2: hsla(35,90%,60%,0.9); 
+
+       //bg-yellow-a2 or, //text-yellow-a2
+       --yellow-alpha-3: hsla(35,90%,60%,0.8); 
+
+
+   
+         
+
+    }
+
+}

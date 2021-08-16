@@ -1,0 +1,168 @@
+
+@import '../../breakpoints/_breakpoints.scss';
+
+
+// heading-1
+
+@mixin h1{ 
+
+    $base:2.25rem; // 36px
+    $difference:0.125rem; // 2px
+    
+    font-size:$base; 
+
+    @include s-md {font-size: $base+$difference;}
+
+    @include s-lg {font-size: $base+($difference*2);}
+
+    @include s-xl {font-size: $base+($difference*3); }
+
+
+    // line-height
+    line-height:1.20;
+    @include s-lg {line-height:1.16;}
+
+}
+
+
+
+// heading-2
+
+@mixin h2{ 
+
+    $base:1.875rem; // 30px
+    $difference:0.125rem; // 2px
+    
+    font-size:$base; 
+
+    @include s-md {font-size: $base+$difference;}
+
+    @include s-lg {font-size: $base+($difference*2);}
+
+    @include s-xl {font-size: $base+($difference*3); }
+
+
+    // line-height
+    line-height:1.28;
+    @include s-lg {line-height:1.25;}
+
+}
+
+
+
+
+
+// heading-3
+
+@mixin h3{ 
+
+    $base:1.5rem; // 24px
+    $difference:0.125rem; // 2px
+    
+    font-size:$base; 
+
+    @include s-md {font-size: $base+$difference;}
+
+    @include s-lg {font-size: $base+($difference*2);}
+
+    @include s-xl {font-size: $base+($difference*3); }
+
+
+    // line-height
+    line-height:1.33;
+    @include s-lg {line-height:1.28;}
+
+}
+
+
+
+
+// heading-4
+
+@mixin h4{ 
+
+    $base:1.25rem; // 20px
+    $difference:0.125rem; // 2px
+    
+    font-size:$base; 
+
+    @include s-md {font-size: $base+$difference;}
+
+    @include s-lg {font-size: $base+($difference*2);}
+
+    @include s-xl {font-size: $base+($difference*3); }
+
+
+
+    // line-height
+    
+    line-height:1.4;
+    @include s-lg {line-height:1.33;}
+
+}
+
+
+
+
+// heading-5
+
+
+@mixin h5{ 
+
+    $base:0.875rem; // 14px
+    $difference:0.0625rem; // 1px
+    
+    font-size:$base; 
+
+    @include s-md { font-size: $base+$difference;}
+
+    @include s-lg {font-size: $base+($difference*2);}
+
+    @include s-xl {font-size: $base+($difference*3); }
+
+
+    // line-height 
+
+    line-height: 1.5;
+
+}
+
+
+
+// heading-6
+
+@mixin h6{ 
+
+
+    $base:0.75rem; // 12px
+    $difference:0.0625rem; // 1px
+    
+    font-size:$base; 
+
+    @include s-md { font-size: $base+$difference;}
+
+    @include s-lg {font-size: $base+($difference*2);}
+
+    @include s-xl {font-size: $base+($difference*3); }
+
+
+
+     // line-height
+    
+     line-height:1.5;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

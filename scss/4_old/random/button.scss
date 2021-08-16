@@ -1,0 +1,31 @@
+/* Support for the older versions (Removed in version 1.4) */
+
+
+.btn-color_r{
+    @apply
+    bg-green-800
+    hover:bg-green-600
+    text-white;
+}
+
+.btn-color-ghost_r{
+
+    @apply
+    border-2
+    text-green-600
+    border-green-600
+    hover:bg-green-600
+    hover:text-white;
+
+}
+
+
+
+.btn-transition-scale_r{
+    @apply
+    transform
+    hover:scale-95
+    transition
+    ease-out
+    duration-300;
+}

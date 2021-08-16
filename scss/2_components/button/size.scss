@@ -1,0 +1,15 @@
+@import '../../3_helpers/fontSize/mixin/_mixin.scss';
+
+/* Button Size */
+
+.-btn-sm{
+    @include h6;
+}
+
+.-btn-md{
+    @include h5;
+}
+
+.-btn-lg{
+   @include p;
+}

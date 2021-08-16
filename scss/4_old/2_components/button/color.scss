@@ -1,0 +1,46 @@
+
+.btn-color-t1 {
+ 
+     @apply
+
+     bg-b-t1a1 text-l2-a1
+     hover:bg-b-t1a2;
+
+}
+
+
+
+.btn-color-t2 {
+ 
+    @apply
+
+    bg-b-t2a1 text-l2-a1
+    hover:bg-b-t2a2;
+
+}
+
+
+
+// border
+
+
+.btn-border-color-t1 {
+ 
+    @apply
+
+    bg-transparent text-b-t1a1
+    border border-b-t1a1
+    hover:bg-b-t1a1 hover:text-l2-a1;
+
+}
+
+
+.btn-border-color-t2 {
+ 
+    @apply
+
+    bg-transparent text-b-t2a1
+    border border-b-t2a1
+    hover:bg-b-t2a1 hover:text-l2-a1;
+
+}

@@ -1,0 +1,9 @@
+
+/* The following class's max-width is 20rem.
+You can make more class like this just by changing the max-weight size. */
+
+.card-1_r{
+    @apply
+    max-w-20rem 
+    rounded-xl shadow-lg 
+}

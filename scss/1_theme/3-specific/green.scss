@@ -1,0 +1,37 @@
+
+@layer base {
+
+    :root {
+
+
+       //bg-green-a1 or, //text-green-a1
+       --green-alpha-1: hsla(160,85%,35%,1); 
+
+       //bg-green-a2 or, //text-green-a2
+       --green-alpha-2: hsla(160,85%,35%,0.9); 
+
+       //bg-green-a2 or, //text-green-a2
+       --green-alpha-3: hsla(160,85%,35%,0.8); 
+         
+
+
+    }
+
+
+    .dark {
+
+
+        //bg-green-a1 or, //text-green-a1
+       --green-alpha-1: hsla(160,85%,55%,1); 
+
+       //bg-green-a2 or, //text-green-a2
+       --green-alpha-2: hsla(160,85%,55%,0.9); 
+
+       //bg-green-a2 or, //text-green-a2
+       --green-alpha-3: hsla(160,85%,55%,0.8);
+
+
+
+    }
+
+}

@@ -1,0 +1,21 @@
+/* 1 card on mobile and 3 cards on s-lg in a row */
+
+.-card-1-3-parent{
+    @apply
+    grid 
+    grid-cols-1 s-md:grid-cols-2 s-lg:grid-cols-3 s-xl:grid-cols-4 s-2xl:grid-cols-5
+    gap-4 mx-4 
+    s-lg:gap-8 s-lg:mx-8;
+    
+}
+
+.-card-1-3-grand-parent{
+    @apply
+    flex
+    justify-center;
+   
+}
+
+
+
+

@@ -1,0 +1,36 @@
+ /* Support for the older versions (Removed in version 2.2) */
+
+/* breakpoints */
+
+@import './breakpoints/breakpoints';
+
+
+/* font-size */
+
+@import './fontSize/_fontSize.scss';
+
+
+
+/* layout */
+
+@import './layout/_layout.scss';
+
+
+/* animation */
+@import './animation/_animation.scss';
+
+
+
+/* random */
+
+@import './random/_random.scss';
+
+
+
+
+/* shape divider */
+
+@import './shapeDivider/_shapeDivider.scss'
+
+
+

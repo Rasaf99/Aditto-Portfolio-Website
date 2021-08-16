@@ -1,0 +1,35 @@
+// 2 (Secondary color)
+
+.text-color-2_r{
+    @apply  text-pink-800
+            dark:text-pink-200;
+             
+}
+
+.text-color-2-light_r{
+    @apply text-pink-700
+           dark:text-pink-200;
+}
+
+.text-color-2-dark_r{
+    @apply text-pink-900 
+           dark:text-pink-300;
+}
+
+
+
+// hover
+.hover-text-color-2_r{
+    @apply hover:text-pink-800 
+           dark:hover:text-pink-200;           
+}
+
+.hover-text-color-2-light_r{
+    @apply hover:text-pink-700 
+           dark:hover:text-pink-100;
+}
+
+.hover-text-color-2-dark_r{
+    @apply hover:text-pink-900 
+           dark:hover:text-pink-300;
+}

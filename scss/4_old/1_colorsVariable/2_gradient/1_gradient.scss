@@ -1,0 +1,19 @@
+// 1 (primary color)
+
+.bg-gradient-1_r{
+    @apply bg-gradient-to-r from-blue-200 to-blue-400
+          dark:from-blue-800 dark:to-blue-600;          
+}
+
+.bg-gradient-1-light_r{
+    @apply bg-gradient-to-r from-blue-100 to-blue-300
+         dark:from-blue-700 dark:to-blue-500; 
+}
+
+.bg-gradient-1-dark_r{
+    @apply bg-gradient-to-r from-blue-300 to-blue-400
+         dark:from-blue-900 dark:to-blue-700; 
+
+
+}
+

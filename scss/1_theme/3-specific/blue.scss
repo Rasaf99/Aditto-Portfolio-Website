@@ -1,0 +1,38 @@
+
+@layer base {
+
+
+    :root {
+
+
+        //bg-blue-a1 or, //text-blue-a1
+       --blue-alpha-1: hsla(190,90%,40%,1); 
+
+       //bg-blue-a2 or, //text-blue-a2
+       --blue-alpha-2: hsla(190,90%,40%,0.9); 
+
+       //bg-blue-a2 or, //text-blue-a2
+       --blue-alpha-3: hsla(190,90%,40%,0.8); 
+
+
+    }
+
+
+    .dark {
+
+        //bg-blue-a1 or, //text-blue-a1
+       --blue-alpha-1: hsla(190,90%,60%,1); 
+
+       //bg-blue-a2 or, //text-blue-a2
+       --blue-alpha-2: hsla(190,90%,60%,0.9); 
+
+       //bg-blue-a2 or, //text-blue-a2
+       --blue-alpha-3: hsla(190,90%,60%,0.8); 
+
+
+       
+         
+
+    }
+
+}

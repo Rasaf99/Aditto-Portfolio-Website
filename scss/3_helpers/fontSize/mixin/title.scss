@@ -1,0 +1,76 @@
+@import '../../breakpoints/_breakpoints.scss';
+
+
+
+// title-1
+
+@mixin title-1{ 
+
+    $base:3.75rem; // 60px
+    $difference:0.125rem; // 2px
+    
+    font-size:$base; 
+
+    @include s-md {font-size: $base+$difference;}
+
+    @include s-lg {font-size: $base+($difference*2);}
+
+    @include s-xl {font-size: $base+($difference*3); }
+
+
+    // line-height
+    line-height:1.06;
+    @include s-lg {line-height:1.055;}
+
+}
+
+
+
+
+
+// title-2
+
+@mixin title-2{ 
+
+    $base:3.25rem; // 52px
+    $difference:0.125rem; // 2px
+    
+    font-size:$base; 
+
+    @include s-md {font-size: $base+$difference;}
+
+    @include s-lg {font-size: $base+($difference*2);}
+
+    @include s-xl {font-size: $base+($difference*3); }
+
+
+    // line-height
+    line-height:1.075;
+    @include s-lg {line-height:1.2;}
+
+}
+
+
+
+
+// title-3
+
+@mixin title-3{ 
+
+    $base:2.75rem; // 44px
+    $difference:0.125rem; // 2px
+    
+    font-size:$base; 
+
+    @include s-md {font-size: $base+$difference;}
+
+    @include s-lg {font-size: $base+($difference*2);}
+
+    @include s-xl {font-size: $base+($difference*3); }
+
+
+    // line-height
+    line-height:1.14;
+    @include s-lg {line-height:1.2;}
+
+}

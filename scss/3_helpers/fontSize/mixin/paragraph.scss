@@ -1,0 +1,26 @@
+@import '../../breakpoints/_breakpoints.scss';
+
+ 
+
+@mixin p{ 
+
+    $base:1rem; //16px
+    $difference:0.09375rem; //1.5px
+    
+    font-size:$base; 
+
+    @include s-md { font-size: $base+$difference;}
+
+    @include s-lg {font-size: $base+($difference*2);}
+
+    @include s-xl {font-size: $base+($difference*3); }
+
+
+
+    // line-height
+    
+    line-height:1.5;
+    @include s-lg {line-height:1.4;}
+
+
+}

@@ -1,0 +1,39 @@
+// 1 (primary color)
+
+
+.bg-color-1_r{
+  background-color:#FFFFFF;
+                    
+}
+
+.dark .bg-color-1_r{
+    background-color:teal;
+ 
+}
+
+
+.bg-color-top-bar_r{
+  background-color:#121212;
+  opacity:9%;
+                    
+}
+
+.dark .bg-color-top-bar_r{
+    background-color: rgba(255,255,255,0.09)
+ 
+}
+
+
+
+
+
+
+.bg-color-1-light_r{
+    @apply bg-blue-100 
+           dark:bg-blue-700;
+}
+
+.bg-color-1-dark_r{
+    @apply bg-blue-300 
+           dark:bg-blue-900;
+}

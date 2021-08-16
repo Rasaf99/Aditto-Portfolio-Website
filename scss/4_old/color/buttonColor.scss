@@ -1,0 +1,151 @@
+ /* Support for the older versions (Removed in version 2.0) */
+ 
+ 
+/* Colorful */
+
+.btn-red-light_r{
+    @apply bg-red-300 text-gray-700
+    hover:bg-red-400;
+}
+
+.btn-red-dark_r{
+    @apply bg-red-600 text-gray-100 
+    hover:bg-red-700;
+}
+
+
+.btn-pink-light_r{
+    @apply bg-pink-300 text-gray-700
+    hover:bg-pink-400;
+}
+
+.btn-pink-dark_r{
+    @apply bg-pink-600 text-gray-100 
+    hover:bg-pink-700;
+}
+
+
+.btn-green-light_r{
+    @apply bg-green-300 text-gray-700
+    hover:bg-green-400;
+}
+
+.btn-green-dark_r{
+    @apply bg-green-600 text-gray-100 
+    hover:bg-green-700;
+}
+
+
+.btn-blue-light_r{
+    @apply bg-blue-300 text-gray-700
+    hover:bg-blue-400;
+}
+
+.btn-blue-dark_r{
+    @apply bg-blue-600 text-gray-100 
+    hover:bg-blue-700;
+}
+
+
+.btn-indigo-light_r{
+    @apply bg-indigo-300 text-gray-700
+    hover:bg-indigo-400;
+}
+
+.btn-indigo-dark_r{
+    @apply bg-indigo-600 text-gray-100 
+    hover:bg-indigo-700;
+}
+
+.btn-gray-dark_r{
+    @apply bg-gray-600 text-gray-100 
+    hover:bg-gray-700;
+
+}
+
+.btn-gray-light_r{
+    @apply bg-gray-300 text-gray-700 
+    hover:bg-gray-400;
+
+}
+
+.btn-yellow-light_r{
+    @apply bg-yellow-300 text-gray-700
+    hover:bg-yellow-400;
+}
+
+.btn-yellow-dark_r{
+    @apply bg-yellow-600 text-gray-100 
+    hover:bg-yellow-700;
+}
+
+
+
+
+/* Only border is colorful*/
+
+
+.btn-border-red_r{
+    @apply
+    bg-transparent text-red-500 
+    border border-red-500
+  hover:bg-red-500 hover:text-white;
+
+}
+
+
+.btn-border-pink_r{
+    @apply
+    bg-transparent text-pink-500 
+    border border-pink-500
+  hover:bg-pink-500 hover:text-white;
+
+}
+
+
+.btn-border-green_r{
+    @apply
+    bg-transparent text-green-500 
+    border border-green-500
+  hover:bg-green-500 hover:text-white;
+}
+
+
+.btn-border-blue_r{
+    @apply
+    bg-transparent text-blue-500 
+    border border-blue-500
+  hover:bg-blue-500 hover:text-white;
+}
+
+
+.btn-border-indigo_r{
+    @apply
+    bg-transparent text-indigo-500 
+    border border-indigo-500
+  hover:bg-indigo-500 hover:text-white;
+}
+
+
+.btn-border-gray_r{
+    @apply
+    bg-transparent text-gray-500 
+    border border-gray-500
+  hover:bg-gray-500 hover:text-white;
+}
+
+
+.btn-border-yellow_r{
+    @apply
+    bg-transparent text-yellow-500 
+    border border-yellow-500
+  hover:bg-yellow-500 hover:text-white;
+}
+
+
+
+
+
+
+
+

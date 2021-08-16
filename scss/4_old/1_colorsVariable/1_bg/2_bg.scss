@@ -1,0 +1,19 @@
+// 2 (Secondary color)
+
+
+
+
+.bg-color-2_r{
+    @apply bg-blue-200 
+           dark:bg-blue-800;         
+}
+
+.bg-color-2-light_r{
+    @apply bg-blue-100 
+           dark:bg-blue-700;
+}
+
+.bg-color-2-dark_r{
+    @apply bg-blue-300 
+           dark:bg-blue-900;
+}

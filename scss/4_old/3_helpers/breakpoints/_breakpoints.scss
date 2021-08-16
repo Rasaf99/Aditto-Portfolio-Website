@@ -1,0 +1,44 @@
+/* Mixin */
+
+
+@mixin s-md {
+    @media screen and (min-width: 688px){
+        @content;
+    }
+ }
+ 
+ 
+ @mixin s-lg {
+     @media screen and (min-width: 1024px){
+         @content;
+     }
+  }
+ 
+ 
+ @mixin s-xl {
+     @media screen and (min-width: 1360px){
+         @content;
+     }
+  }
+
+  @mixin s-2xl {
+    @media screen and (min-width: 1696px){
+        @content;
+    }
+ }
+
+
+ //  (320x2)+(16x3) = 688px
+    //  (320x3)+(16x4) = 1024px
+    //  (320x4)+(16x5) = 1360px
+    //  (320x5)+(16x6) = 1696px
+
+
+
+
+
+
+
+
+    
+    // why should you use px (not em), https://adamwathan.me/dont-use-em-for-media-queries/

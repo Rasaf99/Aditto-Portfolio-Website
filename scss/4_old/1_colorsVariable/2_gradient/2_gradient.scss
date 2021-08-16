@@ -1,0 +1,17 @@
+// 2 (Secondary color)
+
+.bg-gradient-2_r{
+    @apply bg-gradient-to-r from-green-200 to-green-400
+           dark:from-green-800 dark:to-green-600;          
+}
+
+.bg-gradient-2-light_r{
+    @apply bg-gradient-to-r from-green-100 to-green-300
+         dark:from-green-700 dark:to-green-500; 
+}
+
+.bg-gradient-2-dark_r{
+    @apply bg-gradient-to-r from-green-300 to-green-400
+         dark:from-green-900 dark:to-green-700; 
+}
+

@@ -1,0 +1,21 @@
+
+// 2 (Secondary color)
+
+.btn-color-2_r{
+    @apply
+    bg-gray-600 text-gray-100 
+    hover:bg-gray-700
+
+    dark:bg-gray-300 dark:text-gray-700
+    dark:hover:bg-gray-400;
+
+}
+
+
+
+.btn-border-color-2_r{
+    @apply
+    bg-transparent text-yellow-500 
+  hover:bg-yellow-500 hover:text-white
+    border border-yellow-500
+}
