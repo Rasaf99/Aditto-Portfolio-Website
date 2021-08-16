@@ -2,13 +2,15 @@
   <div >
 
 
-<div class="mb-3rem md:mb-2rem lg-5rem " >
+
+<div data-aos="fade-up" class="mb-3rem md:mb-2rem lg-5rem " >
 
    <profileCard/>
 
 </div>
+
   
-  <div class="mb-3rem md:mb-2rem lg-5rem">
+  <div data-aos="fade-right" class="mb-3rem md:mb-2rem lg-5rem">
 
        <hireMe/>
 
@@ -23,12 +25,23 @@
 import profileCard from '../components/profileCard.vue'
 import hireMe from '../components/hireMe.vue'
 
+
+
   export default {
     
    components: {profileCard, hireMe },
-  }
+
+
+
+}
+
+
+  
 
 </script>
+
+
+
 
 
 
