@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-auto p-1rem bg-s-t1a4 shadow-lg -p text-center space-y-2rem opacity-80">
+  <div class="relative h-auto p-1rem bg-s-t1a4 shadow-lg -p text-center space-y-2rem opacity-90">
 
    
 
@@ -16,7 +16,7 @@
     			 p-1
     			 rounded-full 
     			 -btn-scale-down"
-           href="#" 
+           href="https://www.facebook.com/mdaditto.nahian" 
            title="Facebook"
            target="_blank">
     
@@ -34,7 +34,7 @@
     			 p-1
     			 rounded-full 
     			 -btn-scale-down"
-           href="#" 
+           href="https://www.instagram.com/adittonahian/" 
            title="Instagram"
            target="_blank">
     
@@ -51,7 +51,7 @@
     			 p-1
     			 rounded-full 
     			 -btn-scale-down"
-           href="#" 
+           href="https://youtube.com/channel/UCHd9ofgD1_o4DGylh_XopkA" 
            title="Youtube"
            target="_blank">
     

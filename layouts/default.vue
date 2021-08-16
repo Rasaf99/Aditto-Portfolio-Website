@@ -3,7 +3,7 @@
 <!--  🌙 ☀️ The above codes are related to Dark & Light Mode -->
 <div :class="{dark:toggle}">
 
-  <div class="bg-s-t1a1 text-l1-a1 font-mono bg-cover  bg-fixed bg-left" style="background-image:url('https://images.unsplash.com/photo-1446057032654-9d8885db76c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80')">
+  <div class="bg-s-t1a1 text-l1-a1 font-mono bg-cover  bg-fixed bg-center" style="background-image:url('https://raw.githubusercontent.com/Rasafff/Aditto-Portfolio-Website/main/assets/image/background.jpg')">
 
 <!-- End: 🌙 ☀️  -->
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="relative h-auto  m-1rem md:m-2rem lg:m-3rem p-1rem bg-s-t1a3 shadow-lg opacity-80 -p text-center space-y-2rem">
+    <div class="relative h-auto  m-1rem md:m-2rem lg:m-3rem p-1rem bg-s-t1a3 shadow-lg opacity-90 -p text-center space-y-2rem">
 
 <div class="font-bold">    For any kind of musical show, contact me.</div>
 
