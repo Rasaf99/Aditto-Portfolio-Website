@@ -9,7 +9,7 @@
 </div>
 
   
-  <div data-aos="fade-right" class="mb-3rem md:mb-2rem lg-5rem">
+  <div  class="-fadeInRight mb-3rem md:mb-2rem lg-5rem">
 
        <hireMe/>
 
