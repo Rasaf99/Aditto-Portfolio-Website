@@ -1,7 +1,7 @@
 <template>
 
 
-<div   class="relative h-auto  m-1rem md:m-2rem lg:m-3rem pb-1rem bg-s-t1a3 shadow-lg -p opacity-90 ">
+<div   class=" relative h-auto  m-1rem md:m-2rem lg:m-3rem pb-1rem bg-s-t1a3 shadow-lg -p opacity-90 ">
 
 
   <!-- Image -->

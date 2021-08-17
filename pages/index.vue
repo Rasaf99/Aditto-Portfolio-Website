@@ -2,8 +2,7 @@
   <div >
 
 
-
-<div data-aos="fade-up" class="mb-3rem md:mb-2rem lg-5rem " >
+<div  class="-fadeInUp mb-3rem md:mb-2rem lg-5rem " >
 
    <profileCard/>
 
